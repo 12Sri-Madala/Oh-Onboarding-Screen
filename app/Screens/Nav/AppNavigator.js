@@ -6,7 +6,6 @@ import Profile from '../Onboarding/Profile';
 import SignUp from '../Onboarding/Sign Up';
 
 class AppNavigator extends React.Component {
-	const
 
 	render() {
 		return (
@@ -66,22 +65,5 @@ const styles = {
 		marginBottom: 3,
 	}
 }
-
-// import { createAppContainer } from 'react-navigation';
-// import {
-// 	createStackNavigator,
-// 	createSwitchNavigator
-// } from "react-navigation-stack";
-
-// const AppNavigator = createStackNavigator(
-// 	{
-// 		Landing: { screen: Landing },
-// 		SignUp: { screen: SignUp },
-// 		Profile: { screen: Profile }
-// 	},
-// 	{
-// 		intialRouteName: "Landing"
-// 	}
-// )
 
 export default AppNavigator

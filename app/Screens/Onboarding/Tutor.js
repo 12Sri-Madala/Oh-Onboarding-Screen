@@ -10,7 +10,6 @@ class Tutor extends React.Component {
 	render() {
 		const { url, name, price } = this.props
 		return (
-			// <TouchableOpacity>
 			<Card containerStyle={styles.cardContainer} >
 				<View style={styles.veiwContainer}>
 					<View style={styles.avatarContainer}>
@@ -40,13 +39,11 @@ class Tutor extends React.Component {
 						<Button
 							buttonStyle={styles.button}
 							titleStyle={styles.buttonTitle}
-							// containerStyle={styles.buttonContainer}
 							title="Chat"
 						/>
 					</View>
 				</View>
 			</Card>
-			// {/* </TouchableOpacity> */ }
 		)
 	}
 }
@@ -55,7 +52,6 @@ const styles = {
 	veiwContainer: {
 		flexDirection: 'row',
 		alignItems: 'center',
-		// justifyContent: 'center',
 		flexWrap: 'wrap'
 	},
 	button: {
@@ -64,20 +60,14 @@ const styles = {
 		height: 25,
 		width: 70,
 		marginTop: 10
-		// alignItems: 'center',
-		// justifyContent: 'center',
 	},
 	buttonTitle: {
 		fontSize: 13,
 		marginBottom: 0,
 		position: 'absolute'
-		// paddingBottom: 4
 	},
 	buttonContainer: {
 		flex: 2,
-		// flexDirection: 'column',
-		// alignItems: 'center',
-		// justifyContent: 'center',
 	},
 	avatar: {
 		height: 50,
@@ -102,15 +92,12 @@ const styles = {
 	name: {
 		flex: 1,
 		height: 50,
-		// alignItems: 'center',
 		justifyContent: 'center',
 	},
 	details: {
 		flex: 1,
 		height: 50,
 		flexDirection: 'row',
-		// flexWrap: 'wrap',
-		// marginLeft: 10
 	},
 	pricing: {
 		color: '#E47C41'
@@ -127,10 +114,6 @@ const styles = {
 		width: 300,
 		marginLeft: 38,
 		height: 80,
-		// width: 200,
-		// flexDirection: 'row',
-		// flexWrap: 'wrap',
-		// justifyContent: 'space-around',
 		padding: 0
 	}
 }
