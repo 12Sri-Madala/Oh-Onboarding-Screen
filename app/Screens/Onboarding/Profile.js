@@ -6,12 +6,3 @@ export default function Landing() {
 		<Text>Please fill out your profile</Text>
 	)
 }
-
-const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		backgroundColor: '#fff',
-		alignItems: 'center',
-		justifyContent: 'center',
-	},
-});
